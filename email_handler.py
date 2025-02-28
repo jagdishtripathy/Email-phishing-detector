@@ -2,8 +2,8 @@ import imaplib
 import email
 
 # Configuration
-EMAIL_ADDRESS = 'jagadishtripathyforyou@gmail.com'   # Replace with your email
-EMAIL_PASSWORD = 'bdrl bxhu vpnl olij'           # Replace with your password or app-specific password
+EMAIL_ADDRESS = ''   # Replace with your email
+EMAIL_PASSWORD = ''           # Replace with your password or app-specific password
 IMAP_SERVER = 'imap.gmail.com'           # Replace with your email provider's IMAP server
 
 def connect_to_email():
