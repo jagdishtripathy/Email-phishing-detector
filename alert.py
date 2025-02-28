@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 def send_alert_email(subject, message):
     smtp_server = smtp.gmail.com  # Replace with your SMTP server
     smtp_port = 587
-    alert_email = dreamodish81@gmail.com  # Replace with sender email
-    alert_password = JAGADIS2440H  # Replace with sender password
+    alert_email =   # Replace with sender email
+    alert_password =   # Replace with sender password
 
     msg = MIMEText(message)
     msg['Subject'] = subject
