@@ -44,11 +44,11 @@ This project is an automated tool for detecting, quarantining, and alerting abou
 
 - Required packages:
 
-  - `requests` -- for API calls
+- `requests` -- for API calls
 
-  - `imaplib` and `email` -- for email handling
+- `imaplib` and `email` -- for email handling
 
-  - `re` and `base64` -- for URL extraction and encoding
+- `re` and `base64` -- for URL extraction and encoding
 
 - A VirusTotal API key for URL analysis
 
