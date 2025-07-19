@@ -15,5 +15,5 @@ def send_alert_email(subject, message):
     with smtplib.SMTP(smtp_server, smtp_port) as server:
         server.starttls()
         server.login(alert_email, alert_password)
-        server.sendmail(alert_email,jagadishtripathy144@gmail.com, msg.as_string())
+        server.sendmail(alert_email,"Add here your alert email", msg.as_string())  #Remove the all the things from the double coat and add your alert email
     print("Alert email sent.")
