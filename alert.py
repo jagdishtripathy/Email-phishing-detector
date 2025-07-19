@@ -10,7 +10,7 @@ def send_alert_email(subject, message):
     msg = MIMEText(message)
     msg['Subject'] = subject
     msg['From'] = alert_email
-    msg['To'] = jagadishtripathy144@gmail.com  # Replace with security team email
+    msg['To'] =  # Replace with security team email
 
     with smtplib.SMTP(smtp_server, smtp_port) as server:
         server.starttls()
