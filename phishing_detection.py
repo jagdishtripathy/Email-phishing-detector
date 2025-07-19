@@ -3,7 +3,7 @@ import base64
 import re
 
 def check_url_virustotal(email_body):
-    api_key = "21cc4f86e73e9cf4e8fe25d53faac793298e70580cb10a7156dcf4a9ad9278f7"
+    api_key = " " #Add your virustotal API key
     urls = re.findall(r'https?://[^\s]+', email_body)  # Extract URLs
 
     for url in urls:
