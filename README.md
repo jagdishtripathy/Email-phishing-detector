@@ -162,7 +162,3 @@ This tool is intended for educational and security awareness purposes only. Ensu
 
 * * * * *
 
-License
--------
-
-This project is licensed under the MIT License.
